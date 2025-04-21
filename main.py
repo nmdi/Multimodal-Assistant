@@ -1,5 +1,5 @@
-from .src.vision import describe_image
-from .src.llm import generate_answer
+from src.vision import describe_image
+from src.llm import generate_answer
 
 image_path = "data/dog.jpg"
 user_question = "What is happening in this image?"
